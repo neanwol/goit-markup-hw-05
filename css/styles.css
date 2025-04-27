@@ -821,6 +821,10 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
     width: 360px;
 }
 
+.info-footer {
+    width: 360px;
+}
+
 .footer-form {
 gap: 24px;
 margin-left: 80px;
@@ -831,7 +835,7 @@ margin-left: 80px;
     border-radius: 4px;
     width: 264px;
     height: 40px;
-    background-color: #2E2F42;
+    background-color: transparent;
 }
 
 .privacy-checkbox {
