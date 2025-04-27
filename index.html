@@ -369,12 +369,12 @@
         <div class="footer-form">
             <p class="soc">Subscribe</p>
             <form class="sub-form">
-         <label class="info" name="form">
+         <label class="info" name="form" for="user-email">
           <input 
           class="footer-input"
           type="email" 
           name="email"
-          placeholder="E-mail">
+          placeholder="E-mail" id="user-email">
          </label>
             <button type="submit" class="footer-button">Subscribe
         <svg class="form-footer-icon" width="24" height="24">
@@ -426,13 +426,14 @@
                         </div>
                         <div class="form-box">
                         <input type="checkbox" name="user-privacy" class="visually-hidden" value="true" id="user-privacy">
-                        <label name="info-check" for="user-privacy" class="label-box">I accept the terms and conditions of the
-                            <a class="privacy-checkbox-text" href="">Privacy Policy</a>
+                        <label name="info-check" for="user-privacy" class="label-box">
                             <span class="privacy-checkbox">
-                                <svg class="btn-icon" width="10" height="8">
-                                    <use href="./images/icons.svg#icon-click"></use>
-                                </svg>
-                            </span>
+                            <svg class="btn-icon" width="10" height="8">
+                                <use href="./images/icons.svg#icon-click"></use>
+                            </svg>
+                        </span>
+                        I accept the terms and conditions of the
+                        <a class="privacy-checkbox-text" href="">Privacy Policy</a>  
                         </label>
                         </div>
                     <button type="submit" class="form-btn">Send</button>

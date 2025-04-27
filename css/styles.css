@@ -663,31 +663,10 @@ transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin-left: 16px;
 }
 
-.form-con {
-    margin-bottom: 8px;
-}
-
 .input-wrap {
     position: relative;
 
 }
-
-.input-content {
-    width: 100%;
-    height: 40px;
-    border: 1px solid rgba(46, 47, 66, 0.4);
-    border-radius: 4px;
-    background-color: transparent;
-    padding-left: 38px;
-    outline: transparent;
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-}
-
-.input-content:focus, .input-content:hover {
-    border-color: #4D5AE5;
-}
-
 
 .form-icon {
     position: absolute;
@@ -712,17 +691,6 @@ border-radius: 4px;
 .form-con input:focus,
 .form-con input:hover {
     border: 1px solid #4d5ae5;
-}
-
-.form-element {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 10px;
-    background-color: #F4F4FD;
-    border-radius: 4px;
-    width: 408px;
-    border: none;
-
 }
 
 .form-btn {
@@ -884,9 +852,13 @@ fill: #F4F4FD;
     margin-bottom: 16px;
 }
 
+.form-con {
+    margin-bottom: 16px;
+}
+
 .info input {
     border-radius: 4px;
-    width: 360px;
+    width: 264px;
     height: 40px;
 }
 
@@ -918,9 +890,15 @@ fill:#ffffff;
 }
 
 .privacy-checkbox {
-  position: fixed;
-  text-align: start;
-    margin-right: 24px;
+width: 16px;
+height: 16px;
+border: 1px solid rgba(46, 47, 66, 0.4);
+border-radius: 2px;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+display: inline-flex;
+align-items: center;
+justify-content: center;
+fill: transparent;
 }
 
 .privacy-checkbox:hover, .privacy-checkbox:focus {
@@ -936,17 +914,6 @@ fill:#ffffff;
 .close-icon:hover, .close-icon:focus {
     background-color: #4d5ae5;
     fill: #ffffff;
-}
-
-.footer-input {
-    background-color: transparent;
-    font-size: 12px;
-    line-height: 2;
-    letter-spacing: 0.04em;
-    padding-left: 16px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    color: #ffffff;
-    width: 264px;
 }
 
 .footer-input ::placeholder {
@@ -985,4 +952,36 @@ color: #ffffff;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 72px 24px 24px 24px;
     position: absolute;
+}
+
+.footer-input {
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    color: #ffffff;
+    width: 264px;
+}
+
+.input-content {
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    background-color: transparent;
+    padding-left: 38px;
+    outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.input-content:focus + svg {
+    fill: #4D5AE5;
+}
+
+.input-content:focus,
+.input-content:hover {
+    border-color: #4D5AE5;
 }
