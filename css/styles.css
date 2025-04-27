@@ -890,7 +890,7 @@ fill: #F4F4FD;
     height: 40px;
 }
 
-.close-icon {
+.close-icon:hover, .close-icon:focus{
 fill:#ffffff;
 }
 
