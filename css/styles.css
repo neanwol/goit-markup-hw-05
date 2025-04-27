@@ -972,7 +972,11 @@ color: #ffffff;
 }
 
 .form-con {
-    margin-bottom: 16px;
+    margin-bottom: 8px;
+}
+
+.form-icon {
+top: 50%;
 }
 
 .input-wrap {
