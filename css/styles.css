@@ -926,8 +926,6 @@ border-radius: 100%;
 }
 
 .close-button:hover, .close-button:focus {
-    background-color: #404bbf;
-    border: none;
     fill: #ffffff;
 }
 
